@@ -1,5 +1,20 @@
+body::after {
+    content: "";
+    background: rgba(255, 255, 255, 0.5); /* Ici, vous pouvez changer la couleur et l'opacité */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('../img/photo2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 h1 {
