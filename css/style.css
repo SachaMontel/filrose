@@ -62,6 +62,7 @@ table {
 
 td {
 	max-width: 90px;
+    text-align: left; /* Changez cela en 'center' ou 'right' si vous voulez un alignement différent */
 }
 
 .bonus {
