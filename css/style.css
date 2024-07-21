@@ -81,6 +81,11 @@ td {
 	font-weight: 900;
 }
 
+.bonus-or {
+	color: goldenrod;
+	font-weight: 900;
+}
+
 .score {
 	color: #000044;
 	font-weight: 900;
